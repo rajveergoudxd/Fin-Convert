@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fin-Convert</title>
     <link rel="stylesheet" href="style/style.css">
+    <script src="https://kit.fontawesome.com/5e3cc60b47.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="main-container">
@@ -13,11 +14,27 @@
         <div class="input-container">
             <input type="number" name="number" id="num-input" placeholder="Enter your value" min="1">
         </div>
+
+        <div class="selection">
+            <div class="from">
+                <img src="https://flagsapi.com/US/flat/48.png">
+                <select name="from" id="from">
+                    <option value="USA">USA</option>
+                </select>
+            </div>
+            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+            <div class="to">
+                <select name="to" id="to">
+                    <option value="IND">IND</option>
+                </select>
+                <img src="https://flagsapi.com/IN/flat/48.png">
+            </div>
+        </div>
     </div>
 
 
 
-
+    
     <script src="script/app.js"></script>
 </body>
 </html>

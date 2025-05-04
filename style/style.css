@@ -16,7 +16,7 @@ body{
     padding: 20px;
     height: 60vh;
     min-width: 30vw;
-    box-shadow: 5px 5px rgba(0, 0, 0, 0.322);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.322);
     border-radius: 30px;
     background-color: white;
 }
@@ -39,4 +39,12 @@ body{
     border-style: none;
     border: 1px solid gray;
     border-radius: 10px;
+}
+
+/* Country Selection Area */
+
+.selection{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
 }
