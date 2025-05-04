@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(143, 143, 143, 0.205);
+}
+
+.main-container{
+    padding: 20px;
+    height: 60vh;
+    min-width: 30vw;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.322);
+    border-radius: 30px;
+    background-color: white;
+}
+
+#heading{
+    margin-left: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Input Field */
+
+.input-container{
+    padding: 20px;
+    padding-right: 35px;
+}
+#num-input{
+    width: 100%;
+    padding: 10px;
+    border-style: none;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
